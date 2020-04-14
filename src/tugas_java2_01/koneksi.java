@@ -1,6 +1,4 @@
-
-
-
+package tugas_java2_01;
 import java.sql.Connection;
 import java.sql.DriverManager;
 
@@ -20,5 +18,10 @@ public class koneksi {
    }
    public static void main (String args[]){
        new koneksi().bukakoneksi();
-   } }     
+   }
+
+    Connection bukaKoneksi() {
+        throw new UnsupportedOperationException("Not yet implemented");
+    }
+ }     
 
